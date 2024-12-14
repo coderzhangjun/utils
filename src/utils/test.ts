@@ -1,5 +1,5 @@
 // 数组去重
-export function uniqueArray(arr: []) {
+export function uniqueArray(arr: [any]) {
   return Array.from(new Set(arr));
 }
 
