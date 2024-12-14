@@ -1,0 +1,23 @@
+{
+  "name": "selfcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/utils.umd.js",
+  "types": "dist/types/index.d.ts",    
+  "type": "module",                    
+  "scripts": {
+    "build:types": "tsc",
+    "build:js": "rollup -c",
+    "build": "npm run build:types && npm run build:js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "tslib": "^2.8.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
