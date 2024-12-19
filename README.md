@@ -1,6 +1,6 @@
-# Selfcode
+# utils
 
-**Selfcode** 是一个 JavaScript/TypeScript 工具库，包含多个常用工具函数，支持按需引入，方便高效地用于各类前端项目。
+**utils** 是一个 JavaScript/TypeScript 工具库，包含多个常用工具函数，支持按需引入，方便高效地用于各类前端项目。
 
 ## 项目简介
 
